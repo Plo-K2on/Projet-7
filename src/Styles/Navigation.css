@@ -1,0 +1,61 @@
+
+.NavContainer{
+    height: 68px;
+    /* left: 100px; */
+    top: 40px;
+    margin:0;
+    padding:0;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.NavContainer img{
+    width: 13%;
+    height: 68px;
+}
+
+.NavMenu {
+    /* background-color: blueviolet; */
+    width:20%;
+}
+
+
+.NavContainer ul{
+   display: flex;
+}
+
+.NavContainer ul li {
+    list-style: none;
+    width:100px;
+}
+
+.NavContainer ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF6060;
+    text-decoration: none;
+}
+
+/*
+.NavContainer ul li{
+    position: absolute;
+    left: 90.65%;
+    top: 25%;
+    bottom: 25%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.NavContainer ul li a{
+    color: #FF6060;
+} */

@@ -1,0 +1,40 @@
+
+.ErrorContainer h1{
+    color: rgba(255, 96, 96, 1);
+    font-family: 'Montserrat';
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 411px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.ErrorContainer h2{
+    color: rgba(255, 96, 96, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 142.6%;
+    display: flex;
+    justify-content: center;
+}
+
+.ErrorContainer ul li{
+    list-style: none;
+    
+}
+
+.ErrorContainer ul li a{
+    color: rgba(255, 96, 96, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    text-decoration-line: underline;
+    display: flex;
+    justify-content: center;
+    
+}
