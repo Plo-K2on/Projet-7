@@ -1,0 +1,13 @@
+
+.containerCollapse {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding:20px 0 20px 0;
+}
+
+@media screen and (max-width: 870px) {
+
+    
+}

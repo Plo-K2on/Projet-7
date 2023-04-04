@@ -7,6 +7,7 @@ import Propos from './Pages/Propos';
 import Error from './Pages/404';
 import reportWebVitals from './reportWebVitals';
 import Navigation from './Components/Navigation';
+import Footer from './Components/Footer';
 import './Styles/Index.css';
 import {
   createBrowserRouter,
@@ -43,6 +44,7 @@ root.render(
     <div className='container'>
       <Navigation />
       <RouterProvider router={router} />
+      <Footer />
     </div>
     
   </React.StrictMode>

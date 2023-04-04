@@ -1,7 +1,11 @@
+
+import '../Styles/Fiche.css'
+
+
 function Fiches() {
     return (
-      <div>
-        <h1>Bonjour, je suis sur le composant fiches</h1>
+      <div className='image'>
+        <img src={require('../Assets/Images/Fiche.png')} alt="fiche"/>
       </div>
     )  
   }

@@ -16,3 +16,11 @@
     border-radius: 25px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 870px) {
+
+    .BannerContainer img{
+        
+    }
+    
+}

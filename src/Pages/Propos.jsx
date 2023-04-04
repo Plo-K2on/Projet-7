@@ -1,9 +1,16 @@
+import Banner from '../Components/Banner.jsx'
+import Collapse from '../Components/Collapse.jsx';
+import '../Styles/Propos.css'
+
 function Propos() {
     return (
       <div>
-        <h1>Bonjour, je suis sur le composant propos</h1>
+          <Banner />
+          <div className='containerCollapse'>
+            <Collapse />
+          </div>
       </div>
     )  
   }
-    
+
   export default Propos;
