@@ -25,9 +25,11 @@
     color: white;
     font-size: 24px;
 }
-.CollapseContent{
+
+.CollapseContent {
     background-color: #F6F6F6;
 }
+
 .CollapseHidden {
     display: none;
 }

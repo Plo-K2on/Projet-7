@@ -1,5 +1,5 @@
 
-.NavContainer{
+.NavContainer {
     height: 68px;
     top: 40px;
     margin:0;
@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.NavContainer img{
+.NavContainer img {
     width: 13%;
     height: 68px;
 }
@@ -18,7 +18,7 @@
     width:20%;
 }
 
-.NavContainer ul{
+.NavContainer ul {
    display: flex;
 }
 

@@ -10,4 +10,4 @@ function Fiches() {
     )  
   }
     
-  export default Fiches;
+export default Fiches;

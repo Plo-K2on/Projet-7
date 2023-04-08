@@ -1,0 +1,22 @@
+
+.CardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: rgba(255, 96, 96, 1);
+    width:30%;
+    height:300px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    padding:10px;
+}
+
+.CardContainer h2 {
+    color: white;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 870px) {
+
+    
+}

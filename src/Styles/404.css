@@ -1,5 +1,5 @@
 
-.ErrorContainer h1{
+.ErrorContainer h1 {
     color: rgba(255, 96, 96, 1);
     font-family: 'Montserrat';
     font-size: 288px;
@@ -10,7 +10,7 @@
     
 }
 
-.ErrorContainer h2{
+.ErrorContainer h2 {
     color: rgba(255, 96, 96, 1);
     font-family: 'Montserrat';
     font-style: normal;
@@ -21,12 +21,12 @@
     justify-content: center;
 }
 
-.ErrorContainer ul li{
+.ErrorContainer ul li {
     list-style: none;
     
 }
 
-.ErrorContainer ul li a{
+.ErrorContainer ul li a {
     color: rgba(255, 96, 96, 1);
     font-family: 'Montserrat';
     font-style: normal;

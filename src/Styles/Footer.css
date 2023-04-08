@@ -1,15 +1,15 @@
 
-.FooterContainer{
+.FooterContainer {
     background-color: black;
 }
 
-.FooterContainer img{
+.FooterContainer img {
     color: white;
     margin: 30px 0px 0px 550px;
     padding-top: 20px;
 }
 
-.FooterContainer h1{
+.FooterContainer h1 {
     color: white;
     display: flex;
     justify-content: center;
