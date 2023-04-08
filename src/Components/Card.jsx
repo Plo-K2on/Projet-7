@@ -8,7 +8,7 @@ function Card(props) {
         {/* <h1>{props.key}</h1> */}
         <h2>{props.title}</h2>
         <img src={props.cover} alt='cover'/>
-        <img src={props.pictures} alt='picture'/>
+        {/* <img src={props.pictures} alt='picture'/> */}
         <p>{props.description}</p>
         {/* <p>{props.host}</p> */}
         <p>{props.rating}</p>
