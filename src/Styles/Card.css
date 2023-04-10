@@ -1,7 +1,7 @@
 
-.CardContainer {
+.card {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: flex-end;
     background-color: rgba(255, 96, 96, 1);
     width:30%;
@@ -9,6 +9,13 @@
     margin-bottom:20px;
     border-radius: 10px;
     padding:10px;
+}
+.card a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
 }
 
 .CardContainer h2 {

@@ -7,6 +7,7 @@ const allCards = logements.map((logement)=>{
   return (
     <Card 
     key={logement.id}
+    id={logement.id}
     title={logement.title} 
     cover={logement.cover} 
     pictures={logement.pictures}
