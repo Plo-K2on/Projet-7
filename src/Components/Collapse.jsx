@@ -44,8 +44,6 @@ export default function Collapse(props) {
             <div className={`CollapseContent ${isHiddenClass}`}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quas quidem ab aut. Molestiae rerum eum, explicabo adipisci, cumque exercitationem nemo voluptatibus cum ab ipsam dolorum. Distinctio illum inventore dolore.
             </div>
-
-           
         </div>
     )
 }
