@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from './Pages/Home';
-import Fiches from './Pages/Fiches logements';
+import Fiche from './Pages/Fiche';
 import Propos from './Pages/Propos';
 import Error from './Pages/404';
 import reportWebVitals from './reportWebVitals';
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 
   {
     path: "/fiche/:id",
-    element: <Fiches />,
+    element: <Fiche />,
   },
 
   {
