@@ -25,7 +25,7 @@ function Home() {
       <div>
         <Banner />
         <div className='containerCards'>
-        {allCards}
+          {allCards}
         </div>
       </div>
     )  

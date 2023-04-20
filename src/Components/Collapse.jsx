@@ -1,50 +1,42 @@
 
 import '../Styles/Collapse.css'
+import arrow from '../Assets/Images/FlecheCollapse.png'
 import { useState } from 'react';
 
-
-
-export default function Collapse(props) {
+function Collapse(props) {
     const [selected, setSelected] = useState(false);
-    // const [selected2, setSelected2] = useState(false);
-    // const [selected3, setSelected3] = useState(false);
-    // const [selected4, setSelected4] = useState(false);
-
     const toggle = () => {
         return setSelected(!selected)
     }
-    // const toggle2 = () => {
-    //     return setSelected2(!selected2)
-    // }
-    // const toggle3 = () => {
-    //     return setSelected3(!selected3)
-    // }
-    // const toggle4 = () => {
-    //     return setSelected4(!selected4)
-    // }
     
     let isHiddenClass = selected ? "CollapseHidden" : "";
-    // let isHiddenClass2 = selected2 ? "CollapseHidden" : "";
-    // let isHiddenClass3 = selected3 ? "CollapseHidden" : "";
-    // let isHiddenClass4 = selected4 ? "CollapseHidden" : "";
-
-    // let isHiddenClass;
-    // if(selected === true) {
-    //     isHiddenClass = "CollapseHidden"
-    // } else {
-    //     isHiddenClass = "";
-    // }
+    
+    const renderContent = () =>{
+        if(typeof props.info.content === 'string'){
+            return props.info.content
+        }
+        return props.info.content.map((item, i) => {
+            return (
+                <li key={i}>{item}</li>
+            );
+        });
+    }
 
     return (
         <div className="Collapse">
             <div className="CollapseHeader">
-                <h1>Fiabilité</h1>
-                <img src={require('../Assets/Images/FlecheCollapse.png')} alt="Fleche" onClick={() => toggle()}/>
+                <h1>{props.info.header}</h1>
+                <div onClick={() => toggle()}><img src={arrow} alt="Fleche" /></div>
             </div>
+            
             <div className={`CollapseContent ${isHiddenClass}`}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda quas quidem ab aut. Molestiae rerum eum, explicabo adipisci, cumque exercitationem nemo voluptatibus cum ab ipsam dolorum. Distinctio illum inventore dolore.
+                <ul>{renderContent()}</ul>
             </div>
         </div>
     )
 }
+
+export default Collapse;
+
+
 

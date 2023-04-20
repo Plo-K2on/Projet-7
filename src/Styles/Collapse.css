@@ -4,21 +4,20 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    margin: 5px 0 10px 0;
 }
 
 .CollapseHeader {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* padding: 0px 20px 0 15px;
-    margin: 10px 0px 10px 0px; */
-
+    margin: 0 10px 0 10px;
 }
 
 .Collapse img {
-    width: 1%;
+    width: 70%;
     height: 10px;
-    /* padding: 20px 0 0px 0px; */
+    color: white;
 }
 
 .Collapse h1 {
