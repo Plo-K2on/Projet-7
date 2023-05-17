@@ -1,0 +1,13 @@
+
+.Tag {
+    background: #FF6060;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10px 0 10px;
+}
+
+.Tag p {
+    margin: 3px 20px 3px 20px;
+    color: white;
+}

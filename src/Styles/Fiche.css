@@ -1,4 +1,28 @@
 
+.containerAutor {
+    text-align: right;
+    color: #FF6060;
+}
+
+.containerTitle {
+    color: #FF6060;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.containerLocation {
+    color: #FF6060;
+}
+
+.containerRating {
+    text-align: right;
+}
+
+.containerTag {
+    display: flex;
+    margin-left: -10px;
+}
+
 .containerCollapse {
     display: flex;
     flex-direction: row;
@@ -11,4 +35,6 @@
 
 .collapseCol {
     width: 45%;
+    color: #FF6060;
+    list-style: none;
 }
