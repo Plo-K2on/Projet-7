@@ -2,6 +2,8 @@ import Banner from '../Components/Banner.jsx'
 import Collapse from '../Components/Collapse.jsx';
 import '../Styles/Propos.css'
 
+
+
 function Propos() {
 
   const collapseInfo1 = {
@@ -24,9 +26,9 @@ function Propos() {
   }
   
     return (
-      <div>
-          <Banner />
-          <div className='containerCollapse'>
+      <div className='containerPropos'>
+          <Banner dataBackground='bannerApropos' dataTitle ="" />
+          <div className='containerCollapsePropos'>
             <Collapse info={collapseInfo1}/>
             <Collapse info={collapseInfo2}/>
             <Collapse info={collapseInfo3}/>

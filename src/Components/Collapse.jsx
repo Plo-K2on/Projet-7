@@ -4,7 +4,7 @@ import arrow from '../Assets/Images/FlecheCollapse.png'
 import { useState } from 'react';
 
 function Collapse(props) {
-    const [selected, setSelected] = useState(false);
+    const [selected, setSelected] = useState(true);
     const toggle = () => {
         return setSelected(!selected)
     }

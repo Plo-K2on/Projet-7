@@ -1,11 +1,10 @@
 
 import '../Styles/Banner.css'
 
-export default function Banner() {
+export default function Banner(props) {
     return (
-        <div className='BannerContainer'>
-            <img src={require('../Assets/Images/Banniere.png')} alt="banniere"/>
-            <h1>Chez vous, partout ailleurs</h1>
+        <div className={props.dataBackground}>
+            <h1 className='bannerTexte'>{props.dataTitle}</h1>
         </div>
     )  
  }

@@ -1,0 +1,47 @@
+
+.containerCaroussel {
+    position: relative;
+}
+
+.containerCaroussel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.containerCaroussel .hideButton {
+    display: none;
+}
+
+.containerCaroussel .prev {
+    position: absolute;
+    left: 0;
+    top: 140px;
+    margin-left: 10px;
+    width: 40px;
+    height: 45px;
+}
+
+.containerCaroussel .next {
+    position: absolute;
+    right: 0;
+    top: 140px;
+    margin-right: 10px;
+    width: 40px;
+    height: 45px;
+}
+
+@media screen and (max-width: 870px) {
+
+    .containerCaroussel img {
+
+    }
+
+    .containerCaroussel .prev {
+        
+    }
+
+    .containerCaroussel .next{
+
+    }
+}

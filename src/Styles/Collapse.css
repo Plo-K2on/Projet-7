@@ -32,10 +32,6 @@
 
 .CollapseHidden {
     display: none;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 10px 0 10px; */
 }
 
 @media screen and (max-width: 870px) {

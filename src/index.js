@@ -9,10 +9,12 @@ import reportWebVitals from './reportWebVitals';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 import './Styles/Index.css';
+import 'typeface-montserrat';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 
 const router = createBrowserRouter([

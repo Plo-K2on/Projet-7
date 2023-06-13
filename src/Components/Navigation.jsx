@@ -7,7 +7,7 @@ export default function Navigation() {
             <img src={require('../Assets/Images/LogoNav.png')} alt="Logo"/>
             <ul className='NavMenu'>
                 <li>
-                    <a href={`/`}>accueil</a>
+                    <a href={`/`}>Accueil</a>
                 </li>
                 <li>
                     <a href={`/Propos`}>A propos</a>

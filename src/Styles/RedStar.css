@@ -1,4 +1,12 @@
 
-.RedStar img {
-    margin: 0 10px 0 10px;
+.redStar {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 870px) {
+
+    .redStar {
+        margin-left: 5px;
+    }
+
 }

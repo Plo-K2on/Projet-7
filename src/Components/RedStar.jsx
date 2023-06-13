@@ -2,7 +2,7 @@ import '../Styles/RedStar.css'
 
 function RedStar() {
     return(
-        <img src={require('../Assets/Images/etoileRouge.png')} alt="etoileRouge"/>
+        <img className='redStar'src={require('../Assets/Images/etoileRouge.png')} alt="etoileRouge"/>
     )
 }
 

@@ -6,6 +6,20 @@
     object-fit: cover;
 }
 
+.bannerApropos {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-image: url("../Assets/Images/Propos.png");
+    background-position: center;
+    border-radius: 25px;
+}
+
+
+/* .containerCollapsePropos {
+
+} */
+
 @media screen and (max-width: 870px) {
 
     

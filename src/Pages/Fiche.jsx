@@ -59,21 +59,25 @@ function Fiche() {
         </div>
         <div className='containerAutor'>
           {logement.host.name}
+          <img src="../Assets/Images/logoAutor.png" alt="Autor"/>
         </div>
+        {/* <div>
+          <img src="../Assets/Images/logoAutor.png" alt="Autor"/>
+        </div> */}
         <div className='containerTitle'>
           {logement.title}
         </div>
         <div className='containerLocation'>
           {logement.location}
         </div>
+        <div className='containerTag'>
+          {renderTag()}
+        </div>
         <div className='containerRating'>
           {disPlayRedStar()}
           {disPlayGreyStar()}
         </div>
-        <div className='containerTag'>
-          {renderTag()}
-        </div>
-        <div className='containerCollapse'>
+        <div className='containerCollapseFiche'>
           <div className='collapseCol'>
             <Collapse info={collapseInfo1} />
           </div>

@@ -23,7 +23,7 @@ const allCards = logements.map((logement)=>{
 function Home() {
     return (
       <div>
-        <Banner />
+        <Banner dataBackground='bannerHome' dataTitle ="Chez vous, partout et ailleurs" />
         <div className='containerCards'>
           {allCards}
         </div>

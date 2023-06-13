@@ -1,4 +1,12 @@
 
-.GreyStar img {
-    margin: 0 0 0 10px;
+.greyStar {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 870px) {
+
+    .greyStar {
+        margin-left: 5px;
+    }
+
 }
