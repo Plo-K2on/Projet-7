@@ -4,10 +4,32 @@
     color: #FF6060;
 }
 
+.containerAutor h1 {
+    width: 93px;
+    height: 52px;
+    left: 1170px;
+    top: 573px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142%;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    padding-left: 790px;
+    margin-bottom: -60px;
+}
+
+.containerAutor img{
+    border-radius: 70px;
+    height: 64px;
+}
+
 .containerTitle {
     color: #FF6060;
     font-size: 20px;
-    margin: 0 0 10px 0;
+    margin: -50px 0 10px 0;
 }
 
 .containerLocation {

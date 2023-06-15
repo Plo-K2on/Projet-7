@@ -58,12 +58,9 @@ function Fiche() {
           <Caroussel pictures={logement.pictures}/>
         </div>
         <div className='containerAutor'>
-          {logement.host.name}
-          <img src="../Assets/Images/logoAutor.png" alt="Autor"/>
+          <h1>{logement.host.name}</h1>
+          <img src={logement.host.picture} alt='autor' />
         </div>
-        {/* <div>
-          <img src="../Assets/Images/logoAutor.png" alt="Autor"/>
-        </div> */}
         <div className='containerTitle'>
           {logement.title}
         </div>

@@ -36,8 +36,8 @@ function Caroussel (props) {
     return (
         <div className='containerCaroussel'>
             <img src={props.pictures[currentImageIndex]} alt =''></img>
-            <button className={`prev ${isHiddenClass}`} onClick={prev}><img src={arrowPrev} alt="Fleche" /></button>
-            <button className={`next ${isHiddenClass}`} onClick={next}><img src={arrowNext} alt="Fleche" /></button>
+            <input type='image' src={arrowPrev} alt='prev' className={`prev ${isHiddenClass}`} onClick={prev} />
+            <input type='image' src={arrowNext} alt='next' className={`next ${isHiddenClass}`} onClick={next} />
         </div>
     )
 }

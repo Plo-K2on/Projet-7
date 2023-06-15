@@ -19,6 +19,12 @@
     height: 15px;
     color: white;
     margin: 25px 10px 0 0;
+    /* will-change: ; */
+}
+
+.Collapse img button {
+    transform : rotate(180deg);
+
 }
 
 .Collapse h1 {
