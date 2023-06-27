@@ -1,16 +1,20 @@
 
 import '../Styles/Collapse.css'
-import arrow from '../Assets/Images/FlecheCollapse.png'
+// import flecheHaut from '../Assets/Images/FlecheCollapse.png'
+// import flechebas from '../Assets/Images/arrowBottom.png'
 import { useState } from 'react';
 
 function Collapse(props) {
     const [selected, setSelected] = useState(true);
+    const [selectedArrow, setSelectedArrow] = useState(true);
     const toggle = () => {
+        setSelectedArrow(!selectedArrow)
+        // console.log('selectedArrow', selectedArrow)
         return setSelected(!selected)
     }
     
     let isHiddenClass = selected ? "CollapseHidden" : "";
-    
+    let displayArrow = selectedArrow ? "maClasseQuiAfficheLaFlecheHaut" : "maClasseQuiAfficheLaFlecheBas";
     const renderContent = () =>{
         if(typeof props.info.content === 'string'){
             return props.info.content
@@ -26,7 +30,7 @@ function Collapse(props) {
         <div className="Collapse">
             <div className="CollapseHeader">
                 <h1>{props.info.header}</h1>
-                <div onClick={() => toggle()}><img src={arrow} alt="Fleche" /></div>
+                <div onClick={() => toggle()}><div className={displayArrow}></div></div>
             </div>
             
             <div className={`CollapseContent ${isHiddenClass}`}>

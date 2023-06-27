@@ -1,15 +1,16 @@
 
 .FooterContainer {
     background-color: black;
+    padding-bottom: 1px;
 }
 
 .FooterContainer img {
     color: white;
     padding-top: 25px;
     display: block;
-    width: 7%;
+    max-width: 100%;
     margin: auto;
-    height: 30px;
+    height: auto;
 }
 
 .FooterContainer h1 {

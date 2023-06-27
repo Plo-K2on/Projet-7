@@ -10,8 +10,8 @@
 }
 
 .NavContainer img {
-    width: 18%;
-    height: 80px;
+    max-width: 100%;
+    height: auto;
     margin-left: 20px;
     margin-top: -20px;
 }
@@ -38,14 +38,14 @@
     text-decoration: none;
 }
 
-.NavContainer ul li a:hover {
+/* .NavContainer ul li a:hover {
     font-family: 'montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
     color: #FF6060;
     text-decoration-line: underline;
-}
+} */
 
 @media screen and (max-width: 870px) {
 
@@ -60,7 +60,7 @@
 
     .NavMenu {
         width: 60%;
-        margin-left: 10px;
+        margin-left: -7px;
     }
 
     .NavContainer ul li {
@@ -72,4 +72,8 @@
         text-transform: uppercase;
     }
     
+}
+.active {
+    color:aqua;
+    background-color: black;
 }
