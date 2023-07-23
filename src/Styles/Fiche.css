@@ -1,41 +1,43 @@
 
 .containerAutor {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
     color: #FF6060;
 }
 
-.containerAutor h1 {
-    /* width: 93px; */
-    height: 52px;
+.containerAutor p {
+    height: 65px;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 142%;
-    display: flex;
-    flex-direction: column;
     text-align: right;
-    padding-right: 75px;
-    margin-bottom: -60px;
 }
 
-.containerAutor img{
+.containerAutor img {
     border-radius: 70px;
     height: 64px;
+    margin-left: 20px;
 }
 
 .containerTitle {
+    font-family: 'montserrat';
+    font-weight: 600;
     color: #FF6060;
     font-size: 20px;
     margin: -50px 0 10px 0;
 }
 
 .containerLocation {
+    font-family: 'montserrat';
+    font-style: normal;
     color: #FF6060;
 }
 
 .containerRating {
     text-align: right;
+    margin-top: 20px;
 }
 
 .containerTag {
@@ -60,70 +62,117 @@
     list-style: none;
 }
 
-@media screen and (max-width: 870px) {
+.container-cols{
+    display: flex;
+    margin-top: -25px;
+    margin-bottom: 15px;
+}
 
-    .containerAutor {
-        position: absolute;
-        right: 10%;
-        bottom: 12%;
-        font-family: 'Montserrat';
-        font-weight: 500;
-        display: flex;
-        align-items: flex-end;
-        margin-bottom: -17px;
+.col-gauche {
+    width: 50%;
+    margin: 51px 0 0 0;
+}
+
+.col-droite {
+    width: 50%;
+    margin: 0;
+}
+
+@media screen and (max-width: 870px) {
+    
+    .container-cols {
+        flex-direction: column;
+        margin: 0;
+    }
+    .col-gauche{
+        margin: 0;
+        width: 100%;
     }
 
-    .containerAutor h1 {
-        width: 93px;
-        height: 52px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 142%;
+    .col-droite{
+        width: 100%;
         display: flex;
-        align-items: flex-end;
+        flex-direction: row-reverse;
+    }
+
+    .containerAutor {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        height: 70px;
+        margin: 0;
+        padding: 0;
+    }
+    .containerRating {
+        width: 50%;
+        height: 70px;
+        text-align: center;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .containerAutor p {
+        height: auto;
+        line-height: 1em;
         text-align: right;
-        padding-right: 3px;
-        margin-bottom: -10px;
+        padding: 0px 0 0 0;
+        margin: 0 0 0 0;
+        display: block;
+        font-size: 14px;
     }
     
     .containerAutor img{
         border-radius: 70px;
-        height: 64px;
-        margin-bottom: -15px;
+        height: 50px;
         margin-left: 10px;
-        margin-right: 10px;
     }
 
     .containerTitle {
-        margin: 12px 0 10px 0;
+        margin: 0 0 20px 0;
+        font-size: 16px;
+        position: relative;
+        top: 8px;
     }
 
     .containerLocation {
-        margin-top: 15px;
-    }
-
-    .containerRating {
-        margin: 25px 195px 20px 0;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+        margin: 0 0 10px 0;
+        font-size: 15px;
     }
 
     .containerTag {
-        margin-top: 16px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 10px;
+        position: relative;
+        right: 10px;
     }
 
     .containerCollapseFiche {
-        padding: 0;
-        width: 100%;
+        padding: 0 0 0 15px;
+        /* margin: 0 0 0 15px; */
+        max-width: 85%;
+        /* créer un meddiaquery intermediaire pour ajuster la longueur */
         display: flex;
         flex-direction: column;
     }
 
     .collapseCol {
         width: 100%;
+        margin: 0 0px 0 10px;
+    }
+}
+
+/* @media screen and (max-width: 1024px) {
+
+    .containerCollapseFiche {
+        width: 100%;
     }
 
-}
+} */

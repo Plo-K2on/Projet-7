@@ -2,8 +2,8 @@
 .NavContainer {
     height: 68px;
     top: 40px;
-    margin:0;
-    padding:0;
+    margin: 0 20px 0 20px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,9 +11,10 @@
 
 .NavContainer img {
     max-width: 100%;
-    height: auto;
+    height: 60px;
     margin-left: 20px;
     margin-top: -20px;
+    margin-bottom: 15px;
 }
 
 .NavMenu {
@@ -22,6 +23,8 @@
 
 .NavContainer ul {
     display: -webkit-inline-box;
+    margin-top: -5px;
+    margin-right: 15px;
 }
 
 .NavContainer ul li {
@@ -32,39 +35,53 @@
 .NavContainer ul li a {
     font-family: 'montserrat';
     font-style: normal;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 21px;
     color: #FF6060;
     text-decoration: none;
 }
 
-/* .NavContainer ul li a:hover {
-    font-family: 'montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    color: #FF6060;
+.NavContainer ul li a.active {
     text-decoration-line: underline;
-} */
+}
 
 @media screen and (max-width: 870px) {
 
     .NavContainer {
-        width: 60%;
+            
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px;
+        /* position: relative;
+        top: 15px; */
     }
 
     .NavContainer img{
-        width: 100%;
-        height: 40px;
+        width: auto;
+        /* height: 55%; */
+        margin: 0 0 0 0;
+        /* position: relative;
+        left: 10px */
     }
 
     .NavMenu {
-        width: 60%;
-        margin-left: -7px;
+        width: auto;
+        margin: 0px;
+       
+    }
+
+    .NavContainer ul {
+        /* margin: 0 0px 0 40px; */
+        /* position: relative;
+        top: 8px;
+        left: 82px; */
+        display:flex;   
     }
 
     .NavContainer ul li {
-        margin: -25px -50px 0px 20px;
+        margin: 0px 0px 0 -32px;
     }
 
     .NavContainer ul li a {
@@ -72,8 +89,4 @@
         text-transform: uppercase;
     }
     
-}
-.active {
-    color:aqua;
-    background-color: black;
 }

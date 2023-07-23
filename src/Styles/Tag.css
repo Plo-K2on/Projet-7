@@ -8,19 +8,28 @@
 }
 
 .Tag p {
+    font-family: 'montserrat';
+    font-style: normal;
     margin: 3px 20px 3px 20px;
     color: white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 3px 0 3px;
 }
 
 @media screen and (max-width: 870px) {
 
     .Tag {
-        width: 30%;
-        height: 73px; 
+        /* width: 30%; */
+        height: auto; 
+        border-radius: 5px;
+        margin: 10px 10px 0 10px;
     }
     
     .Tag p {
-        
+        margin: -10px 10px -10px 10px;
+        min-height: 40px;
     }
     
 }

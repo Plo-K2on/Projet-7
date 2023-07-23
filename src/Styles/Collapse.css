@@ -4,7 +4,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    margin: 5px 0px 10px 0px
+    margin: 0px 0 25px 0;
 }
 
 .CollapseHeader {
@@ -19,14 +19,20 @@
     height: 15px;
     color: white;
     margin: 25px 10px 0 0;
-   
 }
 
 .Collapse h1 {
+    font-family: 'montserrat';
+    font-style: normal;
     color: white;
-    font-size: 24px;
+    font-size: 17px;
     font-weight: 500;
-    font-family: 'Montserrat';
+    margin-left: 15px;
+}
+
+.Collapse ul{
+    color: #FF6060;
+    list-style: none;
 }
 
 .CollapseContent {
@@ -36,22 +42,26 @@
 .CollapseHidden {
     display: none;
 }
+
 .maClasseQuiAfficheLaFlecheHaut {
     background-image: url("../Assets/Images/arrowUp.png");
     display: block;
-    height:15px;
-    width:24px;
-    margin-top: 20px;
+    height: 15px;
+    width: 24px;
+    margin-top: 15px;
 }
+
 .maClasseQuiAfficheLaFlecheBas {
     background-image: url("../Assets/Images/arrowDown.png");
     display: block;
-    height:15px;
-    width:24px;
-    margin-top: 20px;
+    height: 14px;
+    width: 24px;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 870px) {
 
-    
+    .Collapse {
+        margin: 5px -43px 10px -25px;
+    }
 }

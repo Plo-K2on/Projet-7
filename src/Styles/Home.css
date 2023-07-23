@@ -2,7 +2,7 @@
 .bannerHome {
     background-image: url("../Assets/Images/banniereOpacity.png");
     display: flex;
-    width: 100%;
+    width: 97%;
     height: 170px;
     background-position: center;
     border-radius: 25px;
@@ -10,30 +10,35 @@
     justify-content: center;
     align-items: center;
     background-size: cover;
+    margin: 0 20px 0 20px;
 }
 
 .containerCards {
-    margin-top: 20px;
     background-color: #F7F7F7;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 10px;
     justify-content: space-between;
-    padding:20px;
+    padding: 20px;
+    margin: 30px 20px 30px 20px;
 }
 
 @media screen and (max-width: 870px) {
 
     .containerCards {
         width: 95%;
-        margin: 0 0px 0 -12px;
+        margin: 20px 0px 20px -12px;
+        padding-bottom: 0px;
+        background-color: white
     }
     
     .bannerHome {
-        width: 342px;
+        width: auto;
         height: 111px;
         object-fit: cover;
+        border-radius: 10px;
+        /* margin: 0px -6px 0px 0px; */
     }
 }
 

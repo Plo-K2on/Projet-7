@@ -57,23 +57,32 @@ function Fiche() {
         <div className='containerCaroussel'>
           <Caroussel pictures={logement.pictures}/>
         </div>
-        <div className='containerAutor'>
-          <h1>{logement.host.name}</h1>
-          <img src={logement.host.picture} alt='autor' />
+
+        <div className="container-cols">
+          <div className="col-gauche">
+            <div className='containerTitle'>
+              {logement.title}
+            </div>
+            <div className='containerLocation'>
+              {logement.location}
+            </div>
+            <div className='containerTag'>
+              {renderTag()}
+            </div>
+          </div>
+          <div className="col-droite">
+            <div className='containerAutor'>
+              <p>{logement.host.name}</p>
+              <img src={logement.host.picture} alt='autor' />
+            </div>
+            <div className='containerRating'>
+              {disPlayRedStar()}
+              {disPlayGreyStar()}
+            </div>
+          </div> 
         </div>
-        <div className='containerTitle'>
-          {logement.title}
-        </div>
-        <div className='containerLocation'>
-          {logement.location}
-        </div>
-        <div className='containerTag'>
-          {renderTag()}
-        </div>
-        <div className='containerRating'>
-          {disPlayRedStar()}
-          {disPlayGreyStar()}
-        </div>
+        
+
         <div className='containerCollapseFiche'>
           <div className='collapseCol'>
             <Collapse info={collapseInfo1} />

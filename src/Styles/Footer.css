@@ -2,6 +2,8 @@
 .FooterContainer {
     background-color: black;
     padding-bottom: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .FooterContainer img {
@@ -13,14 +15,14 @@
     height: auto;
 }
 
-.FooterContainer h1 {
+.FooterContainer p {
     color: white;
     display: flex;
     justify-content: center;
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    /* font-weight: 500; */
+    font-size: 15px;
     line-height: 142.6%;
     padding-bottom: 15px;
 }
@@ -28,11 +30,11 @@
 @media screen and (max-width: 870px) {
 
     .FooterContainer {
-        width: 100%;
+        width: auto;
+        margin: 0px -5px 0 -5px;
     }
 
     .FooterContainer img {
-        margin: 0px 0px 0 131px;
         padding: 15px 0 0 0;
         width: 24%;
     }

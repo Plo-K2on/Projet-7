@@ -1,5 +1,6 @@
 
 .bannerTexte {
+    font-style: normal;
     font-family: 'montserrat';
     font-weight: 500;
     color: white;
@@ -9,7 +10,6 @@
     width: 100%;
     height: 190px;
     border-radius: 25px;
-    object-fit: cover;
 }
 
 @media screen and (max-width: 870px) {
@@ -23,7 +23,7 @@
         right: 32%;
         top: 19%;
         bottom: 80%;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 100%;
         padding-left: 15px;
     }

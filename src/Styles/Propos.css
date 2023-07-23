@@ -8,14 +8,32 @@
 
 .bannerApropos {
     display: flex;
-    width: 100%;
+    width: 97%;
     height: 170px;
     background-image: url("../Assets/Images/proposOpacity.png");
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 25px;
+    margin: 0 20px 0 20px;
 }
+
+.containerCollapsePropos {
+    margin: 30px 70px 30px 70px;
+}
+
 
 @media screen and (max-width: 870px) {
 
+    .bannerApropos {
+        background-image: url("../Assets/Images/proposOpacityMobile.png");
+        width: 100%;
+        margin: 0 0px 0 0px;
+        height: 223px;
+        border-radius: 10px;
+    }
     
+    .containerCollapsePropos {
+        margin: 30px 50px 30px 30px;
+    }
 }

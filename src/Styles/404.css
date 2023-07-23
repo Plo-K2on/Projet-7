@@ -1,9 +1,14 @@
 
+.ErrorContainer {
+    margin-bottom: 30px;
+}
+
 .ErrorContainer h1 {
+    font-style: normal;
     color: rgba(255, 96, 96, 1);
     font-family: 'Montserrat';
     font-size: 200px;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-align: center;
     margin: 60px 0 0px 0;
 }
@@ -13,14 +18,14 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 29px;
     display: flex;
     justify-content: center;
+    margin-bottom: 142px;
 }
 
 .ErrorContainer ul li {
     list-style: none;
-    
 }
 
 .ErrorContainer ul li a {
@@ -28,7 +33,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 142.6%;
     text-decoration-line: underline;
     display: flex;
@@ -37,13 +42,18 @@
 
 @media screen and (max-width: 870px) {
 
+    .ErrorContainer {
+        margin-bottom: 153px;
+        margin-top: 150px;
+    }
+
     .ErrorContainer h1 {
         font-size: 115px;
     }
     
     .ErrorContainer h2 {
         font-size: 20px;
-        margin: -190px 0 150px 45px;
+        margin: 17px 0 157px 45px;
     }
     
     /* .ErrorContainer ul li {
