@@ -157,7 +157,7 @@
     .containerCollapseFiche {
         padding: 0 0 0 15px;
         /* margin: 0 0 0 15px; */
-        max-width: 85%;
+        max-width: 90%;
         /* créer un meddiaquery intermediaire pour ajuster la longueur */
         display: flex;
         flex-direction: column;
