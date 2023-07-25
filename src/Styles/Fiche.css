@@ -155,9 +155,9 @@
     }
 
     .containerCollapseFiche {
-        padding: 0 0 0 15px;
-        /* margin: 0 0 0 15px; */
-        max-width: 90%;
+        /* padding: 0 0 0 15px; */
+        margin: 0 60px 0 15px;
+        width: auto;
         /* créer un meddiaquery intermediaire pour ajuster la longueur */
         display: flex;
         flex-direction: column;
@@ -168,11 +168,3 @@
         margin: 0 0px 0 10px;
     }
 }
-
-/* @media screen and (max-width: 1024px) {
-
-    .containerCollapseFiche {
-        width: 100%;
-    }
-
-} */

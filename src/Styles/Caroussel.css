@@ -44,13 +44,4 @@
         margin: 0;
     }
 
-    .containerCaroussel .prev {
-        /* top: 135px; */
-        /* left: -15px; */
-    }
-
-    .containerCaroussel .next{
-        /* right: -69px; */
-        /* top: 135px; */
-    }
-}
+} 

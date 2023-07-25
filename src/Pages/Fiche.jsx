@@ -10,11 +10,9 @@ import GreyStar from '../Components/GreyStar';
 import Caroussel from '../Components/Caroussel';
 
 function Fiche() {
-  // récupérer le paramètre id
-  const { id } = useParams(); // on utilise la destructuration JS pour récupérer juste l'id
+  const { id } = useParams();
   const logement = Logements.find((logement) => logement.id === id)
 
-  // console.log ('logement', logement);
   const collapseInfo1 = {
     header: "Description",
     content: logement.description

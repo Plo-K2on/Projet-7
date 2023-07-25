@@ -1,7 +1,5 @@
 
 import '../Styles/Collapse.css'
-// import flecheHaut from '../Assets/Images/FlecheCollapse.png'
-// import flechebas from '../Assets/Images/arrowBottom.png'
 import { useState } from 'react';
 
 function Collapse(props) {
@@ -9,7 +7,6 @@ function Collapse(props) {
     const [selectedArrow, setSelectedArrow] = useState(true);
     const toggle = () => {
         setSelectedArrow(!selectedArrow)
-        // console.log('selectedArrow', selectedArrow)
         return setSelected(!selected)
     }
     

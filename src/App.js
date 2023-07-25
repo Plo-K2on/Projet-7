@@ -22,4 +22,17 @@ function App() {
   );
 }
 
+const App = () => (
+  <div className='container'>
+    <Navigation />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/propos" element={<Propos />} />
+      <Route path="/fiche/:id" element={<Fiche />} />
+      <Route path="*" element={<Error />} />
+    </Routes>
+    <Footer />
+  </div>
+)
+
 export default App;

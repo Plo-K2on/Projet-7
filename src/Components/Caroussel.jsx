@@ -9,14 +9,8 @@ function Caroussel (props) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     let isHiddenClass = props.pictures.length <= 1 ? 'hideButton' : "";
-    // if ( props.pictures.length <=1 ){
-    //     isHiddenClass = 'hideButton';
-    // } else {
-    //     isHiddenClass = "";
-    // }
 
     const prev = () => {
-        console.log ('prev', currentImageIndex)
         if (currentImageIndex === 0) {
             setCurrentImageIndex (props.pictures.length - 1)
         } else {
@@ -25,7 +19,6 @@ function Caroussel (props) {
     };
 
     const next = () => {
-        console.log ('next', currentImageIndex)
         if (currentImageIndex === props.pictures.length - 1) {
             setCurrentImageIndex (0)
         } else {

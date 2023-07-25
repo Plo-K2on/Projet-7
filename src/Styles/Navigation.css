@@ -35,7 +35,6 @@
 .NavContainer ul li a {
     font-family: 'montserrat';
     font-style: normal;
-    /* font-weight: 500; */
     font-size: 21px;
     color: #FF6060;
     text-decoration: none;
@@ -54,16 +53,11 @@
         justify-content: space-between;
         width: 100%;
         margin: 0px;
-        /* position: relative;
-        top: 15px; */
     }
 
     .NavContainer img{
-        width: auto;
-        /* height: 55%; */
-        margin: 0 0 0 0;
-        /* position: relative;
-        left: 10px */
+        height: 45px;
+        margin: 0 0 0 10px;
     }
 
     .NavMenu {
@@ -73,11 +67,8 @@
     }
 
     .NavContainer ul {
-        /* margin: 0 0px 0 40px; */
-        /* position: relative;
-        top: 8px;
-        left: 82px; */
-        display:flex;   
+        display:flex;
+        margin: 0 -5px 0 7px; 
     }
 
     .NavContainer ul li {
@@ -85,7 +76,7 @@
     }
 
     .NavContainer ul li a {
-        font-size: 13px;
+        font-size: 11px;
         text-transform: uppercase;
     }
     
